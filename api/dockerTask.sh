@@ -3,7 +3,7 @@ projectName="api"
 serviceName="api"
 containerName="${projectName}_${serviceName}_1"
 publicPort=5000
-url="http://localhost:$publicPort"
+url="http://ec2-35-162-154-143.us-west-2.compute.amazonaws.com/:$publicPort"
 runtimeID="debian.8-x64"
 framework="netcoreapp1.0"
 
